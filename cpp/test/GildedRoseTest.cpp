@@ -18,3 +18,12 @@ TEST(GildedRoseTest, NormalItemQuality2) {
   EXPECT_EQ(app.items[0].sellIn, -1);
   EXPECT_EQ(app.items[0].quality, 3);
 }
+
+// TC3 : 전설 아이템 품질 변화 없음
+TEST(GildedRoseTest, LegendItemQuality1) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 3, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, 3);
+  EXPECT_EQ(app.items[0].quality, 5);
+}
