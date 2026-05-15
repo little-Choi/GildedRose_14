@@ -36,3 +36,12 @@ TEST(GildedRoseTest, LegendItemQuality2) {
   EXPECT_EQ(app.items[0].sellIn, -1);
   EXPECT_EQ(app.items[0].quality, 5);
 }
+
+// TC5 : Aged Brie 아이템 유통기한 지나면 품질 2 증가
+TEST(GildedRoseTest, AgedBrieItemQuality1) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 2);
+}

@@ -1,2 +1,6 @@
-GildedRoseTest.NormalItemQuality1 1 0.057577
+GildedRoseTest.NormalItemQuality1 2 0.0377008
+GildedRoseTest.AgedBrieItemQuality1 1 0.0206021
+GildedRoseTest.LegendItemQuality1 1 0.0202906
+GildedRoseTest.LegendItemQuality2 1 0.0204268
+GildedRoseTest.NormalItemQuality2 1 0.018538
 ---
