@@ -1,19 +1,19 @@
-Start testing: May 15 09:58 대한민국 표준시
+Start testing: May 15 09:59 대한민국 표준시
 ----------------------------------------------------------
-6/6 Testing: GildedRoseTest.AgedBrieItemQuality2
-6/6 Test: GildedRoseTest.AgedBrieItemQuality2
-Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieItemQuality2" "--gtest_also_run_disabled_tests"
+7/7 Testing: GildedRoseTest.BackstagePassItemQuality1
+7/7 Test: GildedRoseTest.BackstagePassItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassItemQuality1" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_14/build
-"GildedRoseTest.AgedBrieItemQuality2" start time: May 15 09:58 대한민국 표준시
+"GildedRoseTest.BackstagePassItemQuality1" start time: May 15 09:59 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GildedRoseTest.AgedBrieItemQuality2
+Note: Google Test filter = GildedRoseTest.BackstagePassItemQuality1
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GildedRoseTest
-[ RUN      ] GildedRoseTest.AgedBrieItemQuality2
-[       OK ] GildedRoseTest.AgedBrieItemQuality2 (0 ms)
+[ RUN      ] GildedRoseTest.BackstagePassItemQuality1
+[       OK ] GildedRoseTest.BackstagePassItemQuality1 (0 ms)
 [----------] 1 test from GildedRoseTest (0 ms total)
 
 [----------] Global test environment tear-down
@@ -23,8 +23,8 @@ Note: Google Test filter = GildedRoseTest.AgedBrieItemQuality2
 Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieItemQuality2" end time: May 15 09:58 대한민국 표준시
-"GildedRoseTest.AgedBrieItemQuality2" time elapsed: 00:00:00
+"GildedRoseTest.BackstagePassItemQuality1" end time: May 15 09:59 대한민국 표준시
+"GildedRoseTest.BackstagePassItemQuality1" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 15 09:58 대한민국 표준시
+End testing: May 15 09:59 대한민국 표준시

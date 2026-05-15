@@ -1,10 +1,10 @@
 {
-  "tests": 6,
+  "tests": 7,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 6,
+      "tests": 7,
       "testsuite": [
         {
           "name": "NormalItemQuality1",
@@ -35,6 +35,11 @@
           "name": "AgedBrieItemQuality2",
           "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
           "line": 50
+        },
+        {
+          "name": "BackstagePassItemQuality1",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 59
         }
       ]
     }

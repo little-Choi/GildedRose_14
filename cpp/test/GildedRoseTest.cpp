@@ -54,3 +54,13 @@ TEST(GildedRoseTest, AgedBrieItemQuality2) {
   EXPECT_EQ(app.items[0].sellIn, -1);
   EXPECT_LE(app.items[0].quality, 50);
 }
+
+// TC7 : Backstage Pass 아이템 유통기한 11일 이상일 때 품질 1 증가
+TEST(GildedRoseTest, BackstagePassItemQuality1) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 11, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, 10);
+  EXPECT_EQ(app.items[0].quality, 1);
+}
