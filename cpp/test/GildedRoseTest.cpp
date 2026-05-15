@@ -27,3 +27,12 @@ TEST(GildedRoseTest, LegendItemQuality1) {
   EXPECT_EQ(app.items[0].sellIn, 3);
   EXPECT_EQ(app.items[0].quality, 5);
 }
+
+// TC4 : 유통기한 지난 전설 아이템 품질 변화 없음
+TEST(GildedRoseTest, LegendItemQuality2) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", -1, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 5);
+}
