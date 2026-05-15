@@ -1,0 +1,219 @@
+Start testing: May 15 11:36 대한민국 표준시
+----------------------------------------------------------
+1/8 Testing: GildedRoseTest.NormalItemQuality1
+1/8 Test: GildedRoseTest.NormalItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQuality1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.NormalItemQuality1" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.NormalItemQuality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.NormalItemQuality1
+[       OK ] GildedRoseTest.NormalItemQuality1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.NormalItemQuality1" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.NormalItemQuality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: GildedRoseTest.NormalItemQuality2
+2/8 Test: GildedRoseTest.NormalItemQuality2
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQuality2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.NormalItemQuality2" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.NormalItemQuality2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.NormalItemQuality2
+[       OK ] GildedRoseTest.NormalItemQuality2 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.NormalItemQuality2" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.NormalItemQuality2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: GildedRoseTest.LegendItemQuality1
+3/8 Test: GildedRoseTest.LegendItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.LegendItemQuality1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.LegendItemQuality1" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.LegendItemQuality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.LegendItemQuality1
+[       OK ] GildedRoseTest.LegendItemQuality1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.LegendItemQuality1" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.LegendItemQuality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: GildedRoseTest.LegendItemQuality2
+4/8 Test: GildedRoseTest.LegendItemQuality2
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.LegendItemQuality2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.LegendItemQuality2" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.LegendItemQuality2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.LegendItemQuality2
+[       OK ] GildedRoseTest.LegendItemQuality2 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.LegendItemQuality2" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.LegendItemQuality2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: GildedRoseTest.AgedBrieItemQuality1
+5/8 Test: GildedRoseTest.AgedBrieItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieItemQuality1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.AgedBrieItemQuality1" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.AgedBrieItemQuality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.AgedBrieItemQuality1
+[       OK ] GildedRoseTest.AgedBrieItemQuality1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.AgedBrieItemQuality1" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.AgedBrieItemQuality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: GildedRoseTest.AgedBrieItemQuality2
+6/8 Test: GildedRoseTest.AgedBrieItemQuality2
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieItemQuality2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.AgedBrieItemQuality2" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.AgedBrieItemQuality2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.AgedBrieItemQuality2
+[       OK ] GildedRoseTest.AgedBrieItemQuality2 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.AgedBrieItemQuality2" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.AgedBrieItemQuality2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: GildedRoseTest.BackstagePassItemQuality1
+7/8 Test: GildedRoseTest.BackstagePassItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassItemQuality1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.BackstagePassItemQuality1" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.BackstagePassItemQuality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.BackstagePassItemQuality1
+[       OK ] GildedRoseTest.BackstagePassItemQuality1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.BackstagePassItemQuality1" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.BackstagePassItemQuality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: GildedRoseTest.BackstagePassItemQuality2
+8/8 Test: GildedRoseTest.BackstagePassItemQuality2
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassItemQuality2" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.BackstagePassItemQuality2" start time: May 15 11:36 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.BackstagePassItemQuality2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.BackstagePassItemQuality2
+[       OK ] GildedRoseTest.BackstagePassItemQuality2 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.BackstagePassItemQuality2" end time: May 15 11:36 대한민국 표준시
+"GildedRoseTest.BackstagePassItemQuality2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 15 11:36 대한민국 표준시

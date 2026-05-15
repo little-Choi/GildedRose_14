@@ -1,9 +1,9 @@
-GildedRoseTest.NormalItemQuality1 2 0.0377008
-GildedRoseTest.AgedBrieItemQuality1 1 0.0206021
-GildedRoseTest.LegendItemQuality1 1 0.0202906
-GildedRoseTest.LegendItemQuality2 1 0.0204268
-GildedRoseTest.NormalItemQuality2 1 0.018538
-GildedRoseTest.AgedBrieItemQuality2 1 0.0188875
-GildedRoseTest.BackstagePassItemQuality1 1 0.0201556
-GildedRoseTest.BackstagePassItemQuality2 1 0.0185661
+GildedRoseTest.NormalItemQuality1 3 0.00752007
+GildedRoseTest.AgedBrieItemQuality1 2 0.00986625
+GildedRoseTest.LegendItemQuality1 2 0.0108165
+GildedRoseTest.LegendItemQuality2 2 0.0115069
+GildedRoseTest.NormalItemQuality2 2 0.0096275
+GildedRoseTest.AgedBrieItemQuality2 2 0.00981355
+GildedRoseTest.BackstagePassItemQuality1 2 0.00950165
+GildedRoseTest.BackstagePassItemQuality2 2 0.0107013
 ---

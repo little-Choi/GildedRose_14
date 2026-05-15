@@ -101,18 +101,9 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/cstddef \
  C:/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
  C:/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- C:/mingw64/include/c++/15.2.0/tuple C:/mingw64/include/c++/15.2.0/vector \
- C:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
- C:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
- C:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
- C:/mingw64/include/c++/15.2.0/bits/vector.tcc \
- C:/DEV/GildedRose_14/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
- C:/mingw64/include/c++/15.2.0/cstdint \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:/mingw64/include/c++/15.2.0/limits \
- C:/mingw64/include/c++/15.2.0/memory \
+ C:/mingw64/include/c++/15.2.0/tuple C:/mingw64/include/c++/15.2.0/memory \
  C:/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
  C:/mingw64/include/c++/15.2.0/bits/align.h \
  C:/mingw64/include/c++/15.2.0/bits/unique_ptr.h \
@@ -150,6 +141,15 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
+ C:/mingw64/include/c++/15.2.0/vector \
+ C:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
+ C:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
+ C:/mingw64/include/c++/15.2.0/bits/vector.tcc \
+ C:/DEV/GildedRose_14/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
+ C:/mingw64/include/c++/15.2.0/cstdint \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/mingw64/include/c++/15.2.0/limits \
  C:/mingw64/include/c++/15.2.0/ostream \
  C:/mingw64/include/c++/15.2.0/bits/ostream.h \
  C:/mingw64/include/c++/15.2.0/ios \

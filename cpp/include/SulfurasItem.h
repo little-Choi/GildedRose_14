@@ -1,10 +1,10 @@
 #pragma once
+
+#include "GildedRoseItem.h"
 #include "Item.h"
 
-class SurfurasItem {
-  Item &item_;
-
+class SulfurasItem : public GildedRoseItem {
 public:
-  explicit SurfurasItem(Item &item) : item_(item) {}
-  void updateQuality() { /* 변화없음*/ }
+  using GildedRoseItem::GildedRoseItem;
+  void updateQuality() override {}
 };
