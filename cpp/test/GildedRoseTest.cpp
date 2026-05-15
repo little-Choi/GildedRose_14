@@ -45,3 +45,12 @@ TEST(GildedRoseTest, AgedBrieItemQuality1) {
   EXPECT_EQ(app.items[0].sellIn, -1);
   EXPECT_EQ(app.items[0].quality, 2);
 }
+
+// TC6 : Aged Brie 아이템 최대 품질 50으로 더 이상 증가하지 않음
+TEST(GildedRoseTest, AgedBrieItemQuality2) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_LE(app.items[0].quality, 50);
+}

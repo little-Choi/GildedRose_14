@@ -3,4 +3,5 @@ GildedRoseTest.AgedBrieItemQuality1 1 0.0206021
 GildedRoseTest.LegendItemQuality1 1 0.0202906
 GildedRoseTest.LegendItemQuality2 1 0.0204268
 GildedRoseTest.NormalItemQuality2 1 0.018538
+GildedRoseTest.AgedBrieItemQuality2 1 0.0188875
 ---
