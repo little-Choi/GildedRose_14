@@ -25,20 +25,20 @@
 	ProcessorClockFrequency="3600.000000"
 	>
 	<Testing>
-		<StartDateTime>May 15 09:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778806766</StartTestTime>
+		<StartDateTime>May 15 10:00 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778806803</StartTestTime>
 		<TestList>
-			<Test>./GildedRoseTest.BackstagePassItemQuality1</Test>
+			<Test>./GildedRoseTest.BackstagePassItemQuality2</Test>
 		</TestList>
 		<Test Status="passed">
-			<Name>GildedRoseTest.BackstagePassItemQuality1</Name>
+			<Name>GildedRoseTest.BackstagePassItemQuality2</Name>
 			<Path>.</Path>
-			<FullName>./GildedRoseTest.BackstagePassItemQuality1</FullName>
-			<FullCommandLine>C:\DEV\GildedRose_14\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassItemQuality1" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778806766.241736</StartTestTime>
+			<FullName>./GildedRoseTest.BackstagePassItemQuality2</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_14\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassItemQuality2" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778806803.160617</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.020156</Value>
+					<Value>0.018566</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -47,18 +47,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV\GildedRose_14\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassItemQuality1" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV\GildedRose_14\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassItemQuality2" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyVUMFqwzAMvfsrdGwOMQvsVOhhW0sYg65Lt13iENxEDWaOXWxlY3+/OCldMxi0OulJT9LTyzpjlGmglcrMItg728LDXCxX7yJVusY6sx7L5Fbsuh6KssaDF421jUZCT7F31RkUAwxZGRbyqmJrSziHdKDAa9+BvdKEDhbweyDU+b2sPjzJBjfS+0fC9qWTWtF3wvLFKQrIjooToGFbUHzMfacIOcvjUxSQaruTeuyj+VTOmhZNz0WKu8Mf8vnOqTqWQ/a2hiGKK5SPE/D8dMUUzG6g9dGl0kY6kCWpI3bZ94TSxbX9MlNv//MUnDR8eqf/bHO33a6WwY+Ry9kPRmPB+A==</Value>
+					<Value encoding="base64" compression="gzip">eJyVUMFqwzAMvfsrdGwOCevYqdDDtpYwBl2XbrvEIbiJGswcu9jyxv5+cVK6pjBoddKTnqSnl3mtpW6gFVJPIthZ08LjjC+WHzyVqsY6Mw7L6R3f+g7yssa9440xjUJCR7Gz1QnkPQxZGRYmVcVWhnAGaU+Bt64DO6kILczh70CoJw+i+nQkGlwL554I21cvlKSfW5bPj1FAdlA8Beq3BcWH3HlJmLA8PkYBqTJboYY+6i9pjW5Rd1yk2O/PyKc7x+pYDtn7CvoorlA+TMDL8xVTMLmB1kWXShvoQIaEithl3xMKG9fmW4+9/c9TsEIn4zvdZ+v7zWa5CH4M3IT9Akm6wfs=</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 15 09:59 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778806766</EndTestTime>
+		<EndDateTime>May 15 10:00 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778806803</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

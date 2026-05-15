@@ -64,3 +64,13 @@ TEST(GildedRoseTest, BackstagePassItemQuality1) {
   EXPECT_EQ(app.items[0].sellIn, 10);
   EXPECT_EQ(app.items[0].quality, 1);
 }
+
+// TC8 : Backstage Pass 아이템 유통기한 지나면 품질 0
+TEST(GildedRoseTest, BackstagePassItemQuality2) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 0);
+}

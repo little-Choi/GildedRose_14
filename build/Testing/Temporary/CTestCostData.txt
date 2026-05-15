@@ -5,4 +5,5 @@ GildedRoseTest.LegendItemQuality2 1 0.0204268
 GildedRoseTest.NormalItemQuality2 1 0.018538
 GildedRoseTest.AgedBrieItemQuality2 1 0.0188875
 GildedRoseTest.BackstagePassItemQuality1 1 0.0201556
+GildedRoseTest.BackstagePassItemQuality2 1 0.0185661
 ---
