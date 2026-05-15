@@ -1,0 +1,17 @@
+{
+  "tests": 1,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "GildedRoseTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "NormalItemQuality1",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 5
+        }
+      ]
+    }
+  ]
+}

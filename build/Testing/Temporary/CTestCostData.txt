@@ -1,0 +1,2 @@
+GildedRoseTest.NormalItemQuality1 1 0.057577
+---

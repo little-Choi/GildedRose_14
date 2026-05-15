@@ -1,0 +1,30 @@
+Start testing: May 15 09:39 대한민국 표준시
+----------------------------------------------------------
+1/1 Testing: GildedRoseTest.NormalItemQuality1
+1/1 Test: GildedRoseTest.NormalItemQuality1
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQuality1" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.NormalItemQuality1" start time: May 15 09:39 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.NormalItemQuality1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.NormalItemQuality1
+[       OK ] GildedRoseTest.NormalItemQuality1 (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.NormalItemQuality1" end time: May 15 09:39 대한민국 표준시
+"GildedRoseTest.NormalItemQuality1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 15 09:39 대한민국 표준시

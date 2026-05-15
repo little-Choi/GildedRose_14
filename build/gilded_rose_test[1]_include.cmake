@@ -1,0 +1,5 @@
+if(EXISTS "C:/DEV/GildedRose_14/build/gilded_rose_test[1]_tests.cmake")
+  include("C:/DEV/GildedRose_14/build/gilded_rose_test[1]_tests.cmake")
+else()
+  add_test(gilded_rose_test_NOT_BUILT gilded_rose_test_NOT_BUILT)
+endif()

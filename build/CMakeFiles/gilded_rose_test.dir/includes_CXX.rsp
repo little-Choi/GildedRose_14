@@ -1,0 +1,1 @@
+-IC:/DEV/GildedRose_14/cpp/include -isystem "C:/DEV/GildedRose_14/build/_deps/googletest-src/googletest/include" -isystem "C:/DEV/GildedRose_14/build/_deps/googletest-src/googletest"
