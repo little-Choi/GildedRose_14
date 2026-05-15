@@ -1,3 +1,5 @@
 add_test([=[GildedRoseTest.NormalItemQuality1]=]  C:/DEV/GildedRose_14/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.NormalItemQuality1]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[GildedRoseTest.NormalItemQuality1]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\GildedRose_14\cpp\test\GildedRoseTest.cpp:5]==] WORKING_DIRECTORY C:/DEV/GildedRose_14/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  gilded_rose_test_TESTS GildedRoseTest.NormalItemQuality1)
+add_test([=[GildedRoseTest.NormalItemQuality2]=]  C:/DEV/GildedRose_14/build/gilded_rose_test.exe [==[--gtest_filter=GildedRoseTest.NormalItemQuality2]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[GildedRoseTest.NormalItemQuality2]=]  PROPERTIES DEF_SOURCE_LINE [==[C:\DEV\GildedRose_14\cpp\test\GildedRoseTest.cpp:14]==] WORKING_DIRECTORY C:/DEV/GildedRose_14/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  gilded_rose_test_TESTS GildedRoseTest.NormalItemQuality1 GildedRoseTest.NormalItemQuality2)
