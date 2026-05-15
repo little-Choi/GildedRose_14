@@ -9,3 +9,68 @@ TEST(GildedRoseTest, NormalItemQuality1) {
   EXPECT_EQ(app.items[0].sellIn, -1);
   EXPECT_GE(app.items[0].quality, 0);
 }
+
+// TC2 : 유통기한 지난 일반 아이템 품질 2 감소
+TEST(GildedRoseTest, NormalItemQuality2) {
+  std::vector<Item> items = {Item("Normal", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 3);
+}
+
+// TC3 : 전설 아이템 품질 변화 없음
+TEST(GildedRoseTest, LegendItemQuality1) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 3, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, 3);
+  EXPECT_EQ(app.items[0].quality, 5);
+}
+
+// TC4 : 유통기한 지난 전설 아이템 품질 변화 없음
+TEST(GildedRoseTest, LegendItemQuality2) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", -1, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 5);
+}
+
+// TC5 : Aged Brie 아이템 유통기한 지나면 품질 2 증가
+TEST(GildedRoseTest, AgedBrieItemQuality1) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 2);
+}
+
+// TC6 : Aged Brie 아이템 최대 품질 50으로 더 이상 증가하지 않음
+TEST(GildedRoseTest, AgedBrieItemQuality2) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_LE(app.items[0].quality, 50);
+}
+
+// TC7 : Backstage Pass 아이템 유통기한 11일 이상일 때 품질 1 증가
+TEST(GildedRoseTest, BackstagePassItemQuality1) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 11, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, 10);
+  EXPECT_EQ(app.items[0].quality, 1);
+}
+
+// TC8 : Backstage Pass 아이템 유통기한 지나면 품질 0
+TEST(GildedRoseTest, BackstagePassItemQuality2) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 5)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(app.items[0].sellIn, -1);
+  EXPECT_EQ(app.items[0].quality, 0);
+}

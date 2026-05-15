@@ -1,15 +1,50 @@
 {
-  "tests": 1,
+  "tests": 8,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 1,
+      "tests": 8,
       "testsuite": [
         {
           "name": "NormalItemQuality1",
           "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
           "line": 5
+        },
+        {
+          "name": "NormalItemQuality2",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 14
+        },
+        {
+          "name": "LegendItemQuality1",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "LegendItemQuality2",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 32
+        },
+        {
+          "name": "AgedBrieItemQuality1",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "AgedBrieItemQuality2",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "BackstagePassItemQuality1",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 59
+        },
+        {
+          "name": "BackstagePassItemQuality2",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 69
         }
       ]
     }
