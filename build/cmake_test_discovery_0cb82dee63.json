@@ -1,15 +1,140 @@
 {
-  "tests": 1,
+  "tests": 26,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 1,
+      "tests": 26,
       "testsuite": [
         {
-          "name": "NormalItemQuality1",
+          "name": "NormalItemDecreasesQualityAndSellInBeforeSellDate",
           "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
-          "line": 5
+          "line": 16
+        },
+        {
+          "name": "NormalItemQualityDoesNotGoBelowZero",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "NormalItemDegradesTwiceAsFastOnSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 42
+        },
+        {
+          "name": "NormalItemDegradesTwiceAsFastAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 55
+        },
+        {
+          "name": "NormalItemExpiredQualityStopsAtZero",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 68
+        },
+        {
+          "name": "AgedBrieIncreasesQualityBeforeSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 81
+        },
+        {
+          "name": "AgedBrieIncreasesTwiceOnSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 94
+        },
+        {
+          "name": "AgedBrieIncreasesTwiceAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 107
+        },
+        {
+          "name": "AgedBrieQualityDoesNotExceedFifty",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 120
+        },
+        {
+          "name": "AgedBrieExpiredQualityCapsAtFifty",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 133
+        },
+        {
+          "name": "BackstagePassIncreasesByOneWhenSellDateIsMoreThanTenDaysAway",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 146
+        },
+        {
+          "name": "BackstagePassIncreasesByTwoWhenTenDaysRemain",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 159
+        },
+        {
+          "name": "BackstagePassIncreasesByThreeWhenFiveDaysRemain",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 172
+        },
+        {
+          "name": "BackstagePassQualityCapsAtFifty",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 185
+        },
+        {
+          "name": "BackstagePassQualityDropsToZeroOnSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 198
+        },
+        {
+          "name": "BackstagePassQualityStaysZeroAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 211
+        },
+        {
+          "name": "SulfurasDoesNotChangeBeforeSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 224
+        },
+        {
+          "name": "SulfurasDoesNotChangeOnSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 237
+        },
+        {
+          "name": "SulfurasDoesNotChangeAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 250
+        },
+        {
+          "name": "SulfurasKeepsQualityEvenWhenQualityIsAtLegendaryBoundary",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 263
+        },
+        {
+          "name": "SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 276
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityTwiceAsFastBeforeSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 289
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityFourTimesOnSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 302
+        },
+        {
+          "name": "ConjuredItemDecreasesQualityFourTimesAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 315
+        },
+        {
+          "name": "ConjuredItemQualityDoesNotGoBelowZero",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 328
+        },
+        {
+          "name": "ConjuredPrefixIsHandledAsConjuredItem",
+          "file": "C:\\DEV\\GildedRose_14\\cpp\\test\\GildedRoseTest.cpp",
+          "line": 341
         }
       ]
     }
