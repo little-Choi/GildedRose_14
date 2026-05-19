@@ -9,6 +9,7 @@ Project stack:
 Absolute rules:
 - Do not modify the Item struct.
 - Preserve the public behavior of existing requirements unless explicitly asked otherwise.
+- Never merge branches or pull requests on GitHub.
 - quality must always stay between 0 and 50.
 - Sulfuras is the only exception to the quality range rule.
 - sellIn is allowed to become negative.

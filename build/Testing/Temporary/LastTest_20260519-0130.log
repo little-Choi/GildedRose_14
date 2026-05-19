@@ -1,0 +1,30 @@
+Start testing: May 19 10:31 대한민국 표준시
+----------------------------------------------------------
+21/26 Testing: GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum
+21/26 Test: GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum
+Command: "C:/DEV/GildedRose_14/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum" "--gtest_also_run_disabled_tests"
+Directory: C:/DEV/GildedRose_14/build
+"GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum" start time: May 19 10:31 대한민국 표준시
+Output:
+----------------------------------------------------------
+Running main() from C:\DEV\GildedRose_14\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GildedRoseTest
+[ RUN      ] GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum
+[       OK ] GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum (0 ms)
+[----------] 1 test from GildedRoseTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum" end time: May 19 10:31 대한민국 표준시
+"GildedRoseTest.SulfurasKeepsSellInEvenWhenQualityExceedsNormalMaximum" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 19 10:31 대한민국 표준시
